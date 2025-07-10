@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f0f0f0;
+		background: #F6E5DB;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -100,7 +100,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Source Sans Pro';
 		font-weight: 300;
-		color: #777;
+		color: #6B7280;
 		line-height: 1.65em;
 		font-size: 15pt;
 	}
@@ -108,7 +108,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 600;
 		text-transform: uppercase;
-		color: #888;
+		color: #6B7280;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -136,7 +136,7 @@ input, select, textarea {
 		-webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 		-ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 		transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
-		color: #666;
+		color: #6B7280;
 		text-decoration: none;
 		border-bottom: solid 1px #ddd;
 	}
@@ -149,17 +149,17 @@ input, select, textarea {
 		}
 
 		a:hover {
-			color: #ed786a;
+			color: #FF8D00;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
 			a:hover strong {
-				color: #ed786a;
+				color: #FF8D00;
 			}
 
 	strong, b {
 		font-weight: 600;
-		color: #666;
+		color: #6B7280;
 	}
 
 	em, i {
@@ -1657,7 +1657,7 @@ input, select, textarea {
 	form label {
 		font-weight: 600;
 		text-transform: uppercase;
-		color: #888;
+		color: #6B7280;
 		display: block;
 		margin: 0 0 1em 0;
 	}
@@ -1674,7 +1674,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		display: block;
 		border: 0;
-		background: #e8e8e8;
+		background: #F6E5DB;
 		width: 100%;
 		box-shadow: inset 2px 2px 0px 0px rgba(0, 0, 0, 0.1);
 		border-radius: 4px;
@@ -1687,7 +1687,7 @@ input, select, textarea {
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			background: #f0f0f0;
+			background: #F6E5DB;
 		}
 
 	form textarea {
@@ -1751,7 +1751,7 @@ input, select, textarea {
 		}
 
 		table tfoot {
-			background: #F0F0F0;
+			background: #F6E5DB;
 			border-top: solid 2px #E5E5E5;
 		}
 
@@ -1769,7 +1769,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: #ed786a;
+		background: #FF8D00;
 		color: #fff !important;
 		text-transform: uppercase;
 		border-radius: 4px;
@@ -1800,7 +1800,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #fd887a;
+			background: #FEE815;
 		}
 
 		input[type="button"]:active,
@@ -1808,7 +1808,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background: #ed786a;
+			background: #FF8D00;
 		}
 
 		input[type="button"].alt,
@@ -1909,7 +1909,7 @@ input, select, textarea {
 	}
 
 		#header > .container {
-			padding: 14em 0 7em 0;
+			padding: 10em 0 5em 0;
 			border-bottom: solid 2px #e5e5e5;
 			box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5;
 		}
@@ -1917,10 +1917,21 @@ input, select, textarea {
 		#header h1 {
 			font-family: 'Arvo';
 			font-weight: 700;
-			color: #ed786a;
+			color: #1B365D;
 			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
-			font-size: 3em;
-			letter-spacing: 13px;
+			font-size: 4.5em;
+			letter-spacing: 0.05em;
+			line-height: 1.2;
+			text-transform: none;
+		}
+
+		#header h1 .logo-text {
+			color: #1B365D;
+		}
+
+		#header h1 .logo-divider {
+			color: #FF8D00;
+			padding: 0 0.1em;
 		}
 
 			#header h1 a {
@@ -1930,7 +1941,7 @@ input, select, textarea {
 		#header p {
 			text-transform: uppercase;
 			font-weight: 400;
-			color: #888;
+			color: #6B7280;
 			margin: 2.5em 0 0 0;
 			font-size: 0.85em;
 			letter-spacing: 3px;
@@ -1961,7 +1972,7 @@ input, select, textarea {
 				text-decoration: none;
 				text-transform: uppercase;
 				font-weight: 400;
-				color: #777;
+				color: #6B7280;
 				outline: 0;
 				display: block;
 			}
@@ -2001,13 +2012,13 @@ input, select, textarea {
 
 			#nav > ul > li.active > a:before,
 			#nav > ul > li:hover > a:before {
-				background: #ED786A;
+				background: #FF8D00;
 				color: #fff;
 			}
 
 			#nav > ul > li.active > a > span,
 			#nav > ul > li:hover > a > span {
-				color: #ED786A;
+				color: #FF8D00;
 			}
 
 	.dropotron {
@@ -2055,7 +2066,7 @@ input, select, textarea {
 			display: block;
 			padding: 0.3em 1em 0.3em 1em;
 			border: 0;
-			border-top: solid 1px #f0f0f0;
+			border-top: solid 1px #F6E5DB;
 			outline: 0;
 		}
 
@@ -2074,7 +2085,7 @@ input, select, textarea {
 				-webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 				-ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 				transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
-				color: #ed786a;
+				color: #FF8D00;
 			}
 
 /* Features */
@@ -2205,7 +2216,7 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		border-top: solid 2px #e5e5e5;
-		background: #f0f0f0;
+		background: #F6E5DB;
 		padding: 6em 0 8em 0;
 	}
 
@@ -2277,11 +2288,13 @@ input, select, textarea {
 		/* Header */
 
 			#header > .container {
-				padding: 12em 0 5em 0;
+				padding: 8em 0 4em 0;
 			}
 
 			#header h1 {
-				font-size: 2.5em;
+				font-size: 3.5em;
+				letter-spacing: 0.05em;
+				line-height: 1.2;
 			}
 
 		/* Nav */
@@ -2348,7 +2361,7 @@ input, select, textarea {
 		/* Header */
 
 			#header > .container {
-				padding: 10em 0 7em 0;
+				padding: 7em 0 5em 0;
 			}
 
 		/* Nav */
@@ -2460,7 +2473,7 @@ input, select, textarea {
 				border-right: solid 2px #3c3c3c;
 				font-weight: 400;
 				text-transform: uppercase;
-				color: #888;
+				color: #6B7280;
 				letter-spacing: 2px;
 				font-size: 0.85em;
 			}
@@ -2611,13 +2624,13 @@ input, select, textarea {
 		/* Header */
 
 			#header > .container {
-				padding: 6em 0 4em 0;
+				padding: 4em 0 3em 0;
 			}
 
 			#header h1 {
-				font-size: 2em;
-				letter-spacing: 8px;
-				line-height: 1.325em;
+				font-size: 2.5em;
+				letter-spacing: 0.03em;
+				line-height: 1.2;
 			}
 
 			#header p {
